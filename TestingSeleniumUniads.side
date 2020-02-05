@@ -1,0 +1,3517 @@
+{
+  "id": "465e2724-07ea-466c-b50b-69921c5ee414",
+  "version": "2.0",
+  "name": "TestingSeleniumUniads",
+  "url": "http://localhost:8080/UniAds/",
+  "tests": [{
+    "id": "bd7f7472-4f44-4bfa-bf73-16caa6edfc50",
+    "name": "TC_0.1_01",
+    "commands": [{
+      "id": "39557c77-6843-4ba2-ba1a-053a78f00aa6",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/Tutti/Login.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "192e7dbb-4c64-4d12-a055-a469d9b6568c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a98ae7f6-c5af-407d-a473-07b06bcfde36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-riga:nth-child(1) > .input-text",
+      "targets": [
+        ["css=.form-riga:nth-child(1) > .input-text", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb2bb30a-f50b-4590-91f0-0dabd969d5c1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-riga:nth-child(1) > .input-text",
+      "targets": [
+        ["css=.form-riga:nth-child(1) > .input-text", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "v.venturastudenti.unisa.it"
+    }, {
+      "id": "afd074c0-bf41-49cf-b3eb-fd41823db1ba",
+      "comment": "",
+      "command": "type",
+      "target": "id=getPassword",
+      "targets": [
+        ["id=getPassword", "id"],
+        ["name=password", "name"],
+        ["css=#getPassword", "css:finder"],
+        ["xpath=//input[@id='getPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "c77ca4f2-889d-4537-be15-d14152283e5d",
+      "comment": "",
+      "command": "click",
+      "target": "css=fieldset > input:nth-child(5)",
+      "targets": [
+        ["css=fieldset > input:nth-child(5)", "css:finder"],
+        ["xpath=(//input[@name='ruolo'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='ruoloLogin']/fieldset/input[2]", "xpath:idRelative"],
+        ["xpath=//fieldset/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f04338c-d313-46fe-8c64-6d4da22ac600",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pulsantilogin-registrazione-add:nth-child(6)",
+      "targets": [
+        ["css=.pulsantilogin-registrazione-add:nth-child(6)", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//fieldset/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c50b7e22-43c3-4560-b87c-c534423cd70a",
+    "name": "TC_0.1_02",
+    "commands": [{
+      "id": "edb8a235-cf67-42ad-b59f-efe70cfdfb6b",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/Tutti/Login.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26c28acb-47a4-464d-bee5-3371a3bbc813",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79910a45-faa0-49b4-b25a-86a01809cdb6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container > fieldset",
+      "targets": [
+        ["css=.container > fieldset", "css:finder"],
+        ["xpath=//fieldset", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26c510f6-adf8-406f-a71f-10f614017606",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-riga:nth-child(1) > .input-text",
+      "targets": [
+        ["css=.form-riga:nth-child(1) > .input-text", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "vittorio@gmail.com"
+    }, {
+      "id": "53208b73-7af0-44b1-8052-d9eeb0244ab4",
+      "comment": "",
+      "command": "type",
+      "target": "id=getPassword",
+      "targets": [
+        ["id=getPassword", "id"],
+        ["name=password", "name"],
+        ["css=#getPassword", "css:finder"],
+        ["xpath=//input[@id='getPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "88d67788-4633-4ed7-87b0-6d6b02657260",
+      "comment": "",
+      "command": "click",
+      "target": "css=fieldset > input:nth-child(5)",
+      "targets": [
+        ["css=fieldset > input:nth-child(5)", "css:finder"],
+        ["xpath=(//input[@name='ruolo'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='ruoloLogin']/fieldset/input[2]", "xpath:idRelative"],
+        ["xpath=//fieldset/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b2b2e8d-9afd-43e2-8f51-4eb474f2b026",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pulsantilogin-registrazione-add:nth-child(6)",
+      "targets": [
+        ["css=.pulsantilogin-registrazione-add:nth-child(6)", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//fieldset/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0dbc1eca-7cbb-4956-bf24-289d1f463510",
+    "name": "TC_0.1_03",
+    "commands": [{
+      "id": "a1d29165-49f1-4f23-b09d-cc22a20ea4d9",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/Tutti/Login.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "038cb2ad-238b-4a39-af4c-dee54bdef336",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3e9afc6-72ef-43b7-bc9a-40804fa487a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-riga:nth-child(1)",
+      "targets": [
+        ["css=.form-riga:nth-child(1)", "css:finder"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d10850ab-25cc-4bc3-bfcb-78948615797e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-riga:nth-child(1) > .input-text",
+      "targets": [
+        ["css=.form-riga:nth-child(1) > .input-text", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "v.ventura@studenti.unisa.it"
+    }, {
+      "id": "ef8d6b6c-13bf-4962-b1d3-dcfb7b0dfd8e",
+      "comment": "",
+      "command": "type",
+      "target": "id=getPassword",
+      "targets": [
+        ["id=getPassword", "id"],
+        ["name=password", "name"],
+        ["css=#getPassword", "css:finder"],
+        ["xpath=//input[@id='getPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1 prova"
+    }, {
+      "id": "7c9bd5e1-9164-49dc-9445-88dfe6453c84",
+      "comment": "",
+      "command": "click",
+      "target": "css=fieldset > input:nth-child(5)",
+      "targets": [
+        ["css=fieldset > input:nth-child(5)", "css:finder"],
+        ["xpath=(//input[@name='ruolo'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='ruoloLogin']/fieldset/input[2]", "xpath:idRelative"],
+        ["xpath=//fieldset/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3b96c9e-5691-487b-b0ac-2f83e8bd4e72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pulsantilogin-registrazione-add:nth-child(6)",
+      "targets": [
+        ["css=.pulsantilogin-registrazione-add:nth-child(6)", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//fieldset/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9760c90e-d13d-47bb-90b7-8f478373bedf",
+    "name": "TC_0.1_04",
+    "commands": [{
+      "id": "a6995b70-39b1-4c3d-a264-9903cea9a49c",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/Tutti/Login.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a7b0402-e8c9-4b7f-9db3-eafb86383216",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3e50504-c1cf-4fbf-aa80-c7deeea563d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container",
+      "targets": [
+        ["css=.container", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a06651c3-9d10-4c3d-a3ff-48dceaeaad56",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container",
+      "targets": [
+        ["css=.container", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4964d071-55ca-4fdf-bdb4-613827f50fed",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-riga:nth-child(1) > .input-text",
+      "targets": [
+        ["css=.form-riga:nth-child(1) > .input-text", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "v.ventura@studenti.unisa.it"
+    }, {
+      "id": "bcfd88b9-7d73-4cd1-9cfb-029b0dde7a90",
+      "comment": "",
+      "command": "type",
+      "target": "id=getPassword",
+      "targets": [
+        ["id=getPassword", "id"],
+        ["name=password", "name"],
+        ["css=#getPassword", "css:finder"],
+        ["xpath=//input[@id='getPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "3ee73a2d-9f0f-475c-9eb8-37ca8663e31c",
+      "comment": "",
+      "command": "click",
+      "target": "css=fieldset > input:nth-child(5)",
+      "targets": [
+        ["css=fieldset > input:nth-child(5)", "css:finder"],
+        ["xpath=(//input[@name='ruolo'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='ruoloLogin']/fieldset/input[2]", "xpath:idRelative"],
+        ["xpath=//fieldset/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19710f88-dcce-4327-8cdc-0aaf725e314a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pulsantilogin-registrazione-add:nth-child(6)",
+      "targets": [
+        ["css=.pulsantilogin-registrazione-add:nth-child(6)", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//fieldset/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2445a5d4-5d26-4621-bced-3ba67c2cd37d",
+    "name": "TC_0.1_05",
+    "commands": [{
+      "id": "cf2f75df-8e03-454c-aed9-33d1020564be",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/Tutti/Login.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "916f9f17-ff70-435d-8088-b3bd3d22472e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "853478d8-f2d4-4cc7-85cf-d629f2c3e8fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-riga:nth-child(1) > .input-text",
+      "targets": [
+        ["css=.form-riga:nth-child(1) > .input-text", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fe149db-7074-4c3e-8bca-ad3b686e3170",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-riga:nth-child(1) > .input-text",
+      "targets": [
+        ["css=.form-riga:nth-child(1) > .input-text", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "v.ventura@studenti.unisa.it"
+    }, {
+      "id": "09ee6d25-e3a7-42bf-8345-3f6f166ed5d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pulsantilogin-registrazione-add:nth-child(6)",
+      "targets": [
+        ["css=.pulsantilogin-registrazione-add:nth-child(6)", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//fieldset/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "940abda2-3151-4b9a-a762-681611790480",
+    "name": "TC_0.1_06",
+    "commands": [{
+      "id": "f045db25-f284-4a4a-8f3f-fbe2b415fdd9",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/Tutti/Login.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51b48da2-d9ad-4f5a-9d0c-36f963bb6070",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3114a250-fda2-4aae-af87-15faffd10f91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container",
+      "targets": [
+        ["css=.container", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba04747f-64f3-4861-a32e-cf245cd3083d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-riga:nth-child(1) > .input-text",
+      "targets": [
+        ["css=.form-riga:nth-child(1) > .input-text", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "v.ventura@studenti.unisa.it"
+    }, {
+      "id": "770d7817-c230-49fa-a2c8-83f7991cdd88",
+      "comment": "",
+      "command": "click",
+      "target": "css=fieldset > input:nth-child(5)",
+      "targets": [
+        ["css=fieldset > input:nth-child(5)", "css:finder"],
+        ["xpath=(//input[@name='ruolo'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='ruoloLogin']/fieldset/input[2]", "xpath:idRelative"],
+        ["xpath=//fieldset/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ae9b017-efde-47bd-9d3a-63f8b5ca598a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pulsantilogin-registrazione-add:nth-child(6)",
+      "targets": [
+        ["css=.pulsantilogin-registrazione-add:nth-child(6)", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//fieldset/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "aafe902d-d129-483a-87fb-b006b5a74d65",
+    "name": "TC_1.1_01",
+    "commands": [{
+      "id": "7eea4644-b374-4884-8842-711feb67698e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/Tutti/HomePage.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18e8bc5e-cace-45e8-a517-e463d0b1be30",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "419818d5-8c82-4da9-a652-0abd2e9dd725",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registrati",
+      "targets": [
+        ["linkText=Registrati", "linkText"],
+        ["css=nav li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrati')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/UniAds/Tutti/Registrazione.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Registrati')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f6deae3-72f4-4dcc-90d8-3641b025aab5",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailRegistrazione",
+      "targets": [
+        ["name=emailRegistrazione", "name"],
+        ["css=#emailRegistrazione > .input-text", "css:finder"],
+        ["xpath=//input[@name='emailRegistrazione']", "xpath:attributes"],
+        ["xpath=//div[@id='emailRegistrazione']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e27cffc-4ef6-4590-a162-84491e663bbb",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailRegistrazione",
+      "targets": [
+        ["name=emailRegistrazione", "name"],
+        ["css=#emailRegistrazione > .input-text", "css:finder"],
+        ["xpath=//input[@name='emailRegistrazione']", "xpath:attributes"],
+        ["xpath=//div[@id='emailRegistrazione']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "l.carpentieri@studenti.unisa.it"
+    }, {
+      "id": "2bf52d55-4a18-45ef-b2c0-d7849a90ca62",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=#nome > .input-text", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='nome']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "! Lorenzo"
+    }, {
+      "id": "74ee3a67-3e8c-4170-83ca-d0848cb1973d",
+      "comment": "",
+      "command": "type",
+      "target": "name=cognome",
+      "targets": [
+        ["name=cognome", "name"],
+        ["css=#cognome > .input-text", "css:finder"],
+        ["xpath=//input[@name='cognome']", "xpath:attributes"],
+        ["xpath=//div[@id='cognome']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Carpentieri"
+    }, {
+      "id": "5ef7ba15-c01b-437b-9ffc-da3bb2d081d6",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["css=#indirizzo > .input-text", "css:finder"],
+        ["xpath=//input[@name='indirizzo']", "xpath:attributes"],
+        ["xpath=//div[@id='indirizzo']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "d0aa5925-d71f-41fe-8634-5e851e64e296",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-riga:nth-child(5) > .input-text", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "f370a129-6950-4742-8347-a2f10935eef5",
+      "comment": "",
+      "command": "type",
+      "target": "name=password2",
+      "targets": [
+        ["name=password2", "name"],
+        ["css=#password2 > .input-text", "css:finder"],
+        ["xpath=//input[@name='password2']", "xpath:attributes"],
+        ["xpath=//div[@id='password2']/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "e0799a8f-bfad-48ce-9c0c-5a05884688a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=registrazione",
+      "targets": [
+        ["id=registrazione", "id"],
+        ["css=#registrazione", "css:finder"],
+        ["xpath=//input[@id='registrazione']", "xpath:attributes"],
+        ["xpath=//fieldset/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "140c38f3-1b4a-4a6c-bf40-54f291675400",
+    "name": "TC_1.1_02",
+    "commands": [{
+      "id": "4dfa798d-f8e2-47dd-baa7-2c7d2cfa0ee7",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/Tutti/Registrazione.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5b29c45-0dbd-4655-81af-c517fba62b0e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a060cc4-2486-402c-808c-4d9db4f7f0a6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registrati",
+      "targets": [
+        ["linkText=Registrati", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrati')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/UniAds/Tutti/Registrazione.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Registrati')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e17aad9b-09af-415c-8bf7-4dfb32e50c16",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailRegistrazione",
+      "targets": [
+        ["name=emailRegistrazione", "name"],
+        ["css=#emailRegistrazione > .input-text", "css:finder"],
+        ["xpath=//input[@name='emailRegistrazione']", "xpath:attributes"],
+        ["xpath=//div[@id='emailRegistrazione']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a89c9381-4632-4e31-93e2-75219d2b258c",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailRegistrazione",
+      "targets": [
+        ["name=emailRegistrazione", "name"],
+        ["css=#emailRegistrazione > .input-text", "css:finder"],
+        ["xpath=//input[@name='emailRegistrazione']", "xpath:attributes"],
+        ["xpath=//div[@id='emailRegistrazione']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "l.carpentieri@studenti.unisa.it"
+    }, {
+      "id": "1cdfc427-ccd1-44ee-a2aa-be62dca0b968",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=#nome > .input-text", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='nome']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Lorenzo"
+    }, {
+      "id": "d9906d30-e56f-4266-88fd-6ffaf1e549f5",
+      "comment": "",
+      "command": "type",
+      "target": "name=cognome",
+      "targets": [
+        ["name=cognome", "name"],
+        ["css=#cognome > .input-text", "css:finder"],
+        ["xpath=//input[@name='cognome']", "xpath:attributes"],
+        ["xpath=//div[@id='cognome']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "! Carpentieri"
+    }, {
+      "id": "4919b02d-6183-4552-98e0-f17c407676e7",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["css=#indirizzo > .input-text", "css:finder"],
+        ["xpath=//input[@name='indirizzo']", "xpath:attributes"],
+        ["xpath=//div[@id='indirizzo']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "ee591c31-3323-48f7-80e4-fae290ed7ade",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-riga:nth-child(5) > .input-text", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "b833824d-6027-4159-9983-75323eff8125",
+      "comment": "",
+      "command": "type",
+      "target": "name=password2",
+      "targets": [
+        ["name=password2", "name"],
+        ["css=#password2 > .input-text", "css:finder"],
+        ["xpath=//input[@name='password2']", "xpath:attributes"],
+        ["xpath=//div[@id='password2']/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "c2900e18-0f39-469f-ad75-2b17cd39e4f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=registrazione",
+      "targets": [
+        ["id=registrazione", "id"],
+        ["css=#registrazione", "css:finder"],
+        ["xpath=//input[@id='registrazione']", "xpath:attributes"],
+        ["xpath=//fieldset/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2b487a7b-3f2e-4354-a7a4-1f4a8edc71ab",
+    "name": "TC_1.1_03",
+    "commands": [{
+      "id": "403b1138-f893-4c83-a199-155b36f28dc2",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1692b06f-0c6a-491a-b498-88ee6f1fc850",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e41feab-fceb-42b7-9e51-7327130304db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registrati",
+      "targets": [
+        ["linkText=Registrati", "linkText"],
+        ["css=nav li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrati')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/UniAds/Tutti/Registrazione.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Registrati')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9a7b668-78b2-4503-a808-1b9007546518",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailRegistrazione",
+      "targets": [
+        ["name=emailRegistrazione", "name"],
+        ["css=#emailRegistrazione > .input-text", "css:finder"],
+        ["xpath=//input[@name='emailRegistrazione']", "xpath:attributes"],
+        ["xpath=//div[@id='emailRegistrazione']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7ed0e2e-3b3a-47fd-8c2a-6b51f15a7c91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container > fieldset",
+      "targets": [
+        ["css=.container > fieldset", "css:finder"],
+        ["xpath=//fieldset", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21610e8c-ba01-4cec-9201-c7f2d875ddf0",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailRegistrazione",
+      "targets": [
+        ["name=emailRegistrazione", "name"],
+        ["css=#emailRegistrazione > .input-text", "css:finder"],
+        ["xpath=//input[@name='emailRegistrazione']", "xpath:attributes"],
+        ["xpath=//div[@id='emailRegistrazione']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37843bf2-fa79-4709-b352-55a7235841b6",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailRegistrazione",
+      "targets": [
+        ["name=emailRegistrazione", "name"],
+        ["css=#emailRegistrazione > .input-text", "css:finder"],
+        ["xpath=//input[@name='emailRegistrazione']", "xpath:attributes"],
+        ["xpath=//div[@id='emailRegistrazione']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "l.carpentieristudenti.unisa.it"
+    }, {
+      "id": "da5ad304-b3fd-45ce-a580-bb121c4a9192",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=#nome > .input-text", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='nome']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Lorenzo"
+    }, {
+      "id": "482e1323-825b-4f8f-a03e-3e14d30f2e88",
+      "comment": "",
+      "command": "type",
+      "target": "name=cognome",
+      "targets": [
+        ["name=cognome", "name"],
+        ["css=#cognome > .input-text", "css:finder"],
+        ["xpath=//input[@name='cognome']", "xpath:attributes"],
+        ["xpath=//div[@id='cognome']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Carpentieri"
+    }, {
+      "id": "239c0432-cace-45b2-aef8-8f11d6001d03",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["css=#indirizzo > .input-text", "css:finder"],
+        ["xpath=//input[@name='indirizzo']", "xpath:attributes"],
+        ["xpath=//div[@id='indirizzo']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "b9fb39ca-02fa-479f-9929-956b2922321a",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-riga:nth-child(5) > .input-text", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "2458b837-65fe-468c-83b6-16988a14d923",
+      "comment": "",
+      "command": "type",
+      "target": "name=password2",
+      "targets": [
+        ["name=password2", "name"],
+        ["css=#password2 > .input-text", "css:finder"],
+        ["xpath=//input[@name='password2']", "xpath:attributes"],
+        ["xpath=//div[@id='password2']/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "8433b0dc-3ad7-45d0-81d6-7a5e68a69414",
+      "comment": "",
+      "command": "click",
+      "target": "id=registrazione",
+      "targets": [
+        ["id=registrazione", "id"],
+        ["css=#registrazione", "css:finder"],
+        ["xpath=//input[@id='registrazione']", "xpath:attributes"],
+        ["xpath=//fieldset/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "df52360e-6f1d-4121-819a-a28e02653061",
+    "name": "TC_1.1_04",
+    "commands": [{
+      "id": "b550a5dd-68df-4b90-a6c8-e305a92c8f80",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13fdd5a2-82d9-4825-8142-63804ab93aae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "963960a6-2f6b-4a36-b46b-91d5f5817aab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registrati",
+      "targets": [
+        ["linkText=Registrati", "linkText"],
+        ["css=nav li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrati')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/UniAds/Tutti/Registrazione.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Registrati')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4261bf84-cf8d-41f1-8ea3-0a465339a2a9",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailRegistrazione",
+      "targets": [
+        ["name=emailRegistrazione", "name"],
+        ["css=#emailRegistrazione > .input-text", "css:finder"],
+        ["xpath=//input[@name='emailRegistrazione']", "xpath:attributes"],
+        ["xpath=//div[@id='emailRegistrazione']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eaf911c-cdd7-4de9-a121-60007cfa273a",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailRegistrazione",
+      "targets": [
+        ["name=emailRegistrazione", "name"],
+        ["css=#emailRegistrazione > .input-text", "css:finder"],
+        ["xpath=//input[@name='emailRegistrazione']", "xpath:attributes"],
+        ["xpath=//div[@id='emailRegistrazione']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "v.ventura@studenti.unisa.it"
+    }, {
+      "id": "e5979d11-ff2c-44f2-aae5-155e7e02237b",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=#nome > .input-text", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='nome']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Vittorio"
+    }, {
+      "id": "cdb1bc65-00f2-4e5b-a94d-571412e1ca79",
+      "comment": "",
+      "command": "type",
+      "target": "name=cognome",
+      "targets": [
+        ["name=cognome", "name"],
+        ["css=#cognome > .input-text", "css:finder"],
+        ["xpath=//input[@name='cognome']", "xpath:attributes"],
+        ["xpath=//div[@id='cognome']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Ventura"
+    }, {
+      "id": "e63fa063-6406-423a-9edb-924fd48a274a",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["css=#indirizzo > .input-text", "css:finder"],
+        ["xpath=//input[@name='indirizzo']", "xpath:attributes"],
+        ["xpath=//div[@id='indirizzo']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "73120a86-fc9d-4d20-b26c-c1efc764dc76",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-riga:nth-child(5) > .input-text", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "684d1065-49db-4562-a59f-6a0afb2ecbaa",
+      "comment": "",
+      "command": "type",
+      "target": "name=password2",
+      "targets": [
+        ["name=password2", "name"],
+        ["css=#password2 > .input-text", "css:finder"],
+        ["xpath=//input[@name='password2']", "xpath:attributes"],
+        ["xpath=//div[@id='password2']/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "8ad8a548-2da0-485e-bb8e-ea53a28b8f0e",
+      "comment": "",
+      "command": "click",
+      "target": "id=registrazione",
+      "targets": [
+        ["id=registrazione", "id"],
+        ["css=#registrazione", "css:finder"],
+        ["xpath=//input[@id='registrazione']", "xpath:attributes"],
+        ["xpath=//fieldset/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "752e1292-f3f7-4cd6-8fe7-1c21aef3a846",
+    "name": "TC_1.1_05",
+    "commands": [{
+      "id": "b0d4d04a-52d1-4de0-99f0-234d414f950b",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d20e092-bed8-4c8e-ba5e-b536c21da58d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6a41d38-0911-4136-bfba-a695175107c2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registrati",
+      "targets": [
+        ["linkText=Registrati", "linkText"],
+        ["css=nav li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrati')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/UniAds/Tutti/Registrazione.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Registrati')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78d93b14-d5c4-4cad-a39b-f658da6ee8de",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailRegistrazione",
+      "targets": [
+        ["name=emailRegistrazione", "name"],
+        ["css=#emailRegistrazione > .input-text", "css:finder"],
+        ["xpath=//input[@name='emailRegistrazione']", "xpath:attributes"],
+        ["xpath=//div[@id='emailRegistrazione']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82c36b60-96c9-4b6e-8868-7ca1353ab021",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailRegistrazione",
+      "targets": [
+        ["name=emailRegistrazione", "name"],
+        ["css=#emailRegistrazione > .input-text", "css:finder"],
+        ["xpath=//input[@name='emailRegistrazione']", "xpath:attributes"],
+        ["xpath=//div[@id='emailRegistrazione']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "l.carpentieri@studenti.unisa.it"
+    }, {
+      "id": "da08b7eb-8952-42d6-bf79-5c42d2256b2c",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=#nome > .input-text", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='nome']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Lorenzo"
+    }, {
+      "id": "7afbf9cb-417d-4efd-95da-e7eeacb1054e",
+      "comment": "",
+      "command": "type",
+      "target": "name=cognome",
+      "targets": [
+        ["name=cognome", "name"],
+        ["css=#cognome > .input-text", "css:finder"],
+        ["xpath=//input[@name='cognome']", "xpath:attributes"],
+        ["xpath=//div[@id='cognome']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Carpentieri"
+    }, {
+      "id": "3336f9f3-3a12-4d03-bb0f-6a149f4bc3cd",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["css=#indirizzo > .input-text", "css:finder"],
+        ["xpath=//input[@name='indirizzo']", "xpath:attributes"],
+        ["xpath=//div[@id='indirizzo']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "9cf3ecc5-cce5-40b8-8177-5f814c9ddf00",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-riga:nth-child(5) > .input-text", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "1 !.prova"
+    }, {
+      "id": "8f04543b-10b4-4e5c-994c-f528a0e154e3",
+      "comment": "",
+      "command": "type",
+      "target": "name=password2",
+      "targets": [
+        ["name=password2", "name"],
+        ["css=#password2 > .input-text", "css:finder"],
+        ["xpath=//input[@name='password2']", "xpath:attributes"],
+        ["xpath=//div[@id='password2']/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "1 !.prova"
+    }, {
+      "id": "37a0f5f5-2df3-4b0d-9e97-6378d41c5d15",
+      "comment": "",
+      "command": "click",
+      "target": "id=registrazione",
+      "targets": [
+        ["id=registrazione", "id"],
+        ["css=#registrazione", "css:finder"],
+        ["xpath=//input[@id='registrazione']", "xpath:attributes"],
+        ["xpath=//fieldset/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3b56c6d1-b072-4d96-bad8-83adb018516e",
+    "name": "TC_1.1_07",
+    "commands": [{
+      "id": "b07704a3-f6bc-4bd3-bc8b-93ceda0ab61e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6bd1eb0-8037-4903-af83-8e6f83e41ff9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed656c3d-70bf-4432-9a48-abbc6d01a648",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registrati",
+      "targets": [
+        ["linkText=Registrati", "linkText"],
+        ["css=nav li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrati')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/UniAds/Tutti/Registrazione.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Registrati')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4944296-8d1a-47d4-afd8-737ac8b5920b",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailRegistrazione",
+      "targets": [
+        ["name=emailRegistrazione", "name"],
+        ["css=#emailRegistrazione > .input-text", "css:finder"],
+        ["xpath=//input[@name='emailRegistrazione']", "xpath:attributes"],
+        ["xpath=//div[@id='emailRegistrazione']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40aa2e06-8bb2-4667-b309-e7e72248fd00",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailRegistrazione",
+      "targets": [
+        ["name=emailRegistrazione", "name"],
+        ["css=#emailRegistrazione > .input-text", "css:finder"],
+        ["xpath=//input[@name='emailRegistrazione']", "xpath:attributes"],
+        ["xpath=//div[@id='emailRegistrazione']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "l.carpentieri@studenti.unisa.it"
+    }, {
+      "id": "b2bbfb29-ad74-41ce-8e28-a078ce55ae5c",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=#nome > .input-text", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='nome']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Lorenzo"
+    }, {
+      "id": "edb2d654-0862-4014-9466-a3296cacc444",
+      "comment": "",
+      "command": "type",
+      "target": "name=cognome",
+      "targets": [
+        ["name=cognome", "name"],
+        ["css=#cognome > .input-text", "css:finder"],
+        ["xpath=//input[@name='cognome']", "xpath:attributes"],
+        ["xpath=//div[@id='cognome']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Carpentieri"
+    }, {
+      "id": "0b8c94e7-f2c2-44a5-abbf-7b1302da8ffd",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["css=#indirizzo > .input-text", "css:finder"],
+        ["xpath=//input[@name='indirizzo']", "xpath:attributes"],
+        ["xpath=//div[@id='indirizzo']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "26436c59-0346-4908-8310-4fb562bdccd5",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-riga:nth-child(5) > .input-text", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "11c35dd3-3a0f-4bac-9b31-e0a25c5ab3fa",
+      "comment": "",
+      "command": "type",
+      "target": "name=password2",
+      "targets": [
+        ["name=password2", "name"],
+        ["css=#password2 > .input-text", "css:finder"],
+        ["xpath=//input[@name='password2']", "xpath:attributes"],
+        ["xpath=//div[@id='password2']/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "prova1"
+    }]
+  }, {
+    "id": "99842692-0397-4fad-af6b-23d0f679a93e",
+    "name": "TC_1.1_08",
+    "commands": [{
+      "id": "0707a31b-c2e5-4538-8346-de31616cd3cc",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b0294ea-8e0e-4b48-9aab-144baf025822",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44a6c4c4-d2c3-4b18-b3b4-cd3198d6a160",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registrati",
+      "targets": [
+        ["linkText=Registrati", "linkText"],
+        ["css=nav li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrati')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/UniAds/Tutti/Registrazione.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Registrati')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e2ad5f5-4d68-40e9-baf7-6ea2d9dca74f",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailRegistrazione",
+      "targets": [
+        ["name=emailRegistrazione", "name"],
+        ["css=#emailRegistrazione > .input-text", "css:finder"],
+        ["xpath=//input[@name='emailRegistrazione']", "xpath:attributes"],
+        ["xpath=//div[@id='emailRegistrazione']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f913072-d191-4022-950d-e498ea4d0ceb",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailRegistrazione",
+      "targets": [
+        ["name=emailRegistrazione", "name"],
+        ["css=#emailRegistrazione > .input-text", "css:finder"],
+        ["xpath=//input[@name='emailRegistrazione']", "xpath:attributes"],
+        ["xpath=//div[@id='emailRegistrazione']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "l.carpentieri@studenti.unisa.it"
+    }, {
+      "id": "bee20e50-215b-4465-a26e-fb9457e15a5c",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=#nome > .input-text", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='nome']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Lorenzo"
+    }, {
+      "id": "49edbc35-5af6-4867-b407-815977faf186",
+      "comment": "",
+      "command": "type",
+      "target": "name=cognome",
+      "targets": [
+        ["name=cognome", "name"],
+        ["css=#cognome > .input-text", "css:finder"],
+        ["xpath=//input[@name='cognome']", "xpath:attributes"],
+        ["xpath=//div[@id='cognome']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Carpentieri"
+    }, {
+      "id": "95fa59a3-ba34-4534-8ebe-8e9769aa6fc7",
+      "comment": "",
+      "command": "type",
+      "target": "name=indirizzo",
+      "targets": [
+        ["name=indirizzo", "name"],
+        ["css=#indirizzo > .input-text", "css:finder"],
+        ["xpath=//input[@name='indirizzo']", "xpath:attributes"],
+        ["xpath=//div[@id='indirizzo']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "1b5151ed-0751-4584-8f78-9f0cb7e308c9",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-riga:nth-child(5) > .input-text", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "6f445691-3e1e-47bb-b52e-470ab71850f2",
+      "comment": "",
+      "command": "type",
+      "target": "name=password2",
+      "targets": [
+        ["name=password2", "name"],
+        ["css=#password2 > .input-text", "css:finder"],
+        ["xpath=//input[@name='password2']", "xpath:attributes"],
+        ["xpath=//div[@id='password2']/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "7e24b293-cd0b-4af2-9d38-4de09cdc84b6",
+      "comment": "",
+      "command": "click",
+      "target": "id=registrazione",
+      "targets": [
+        ["id=registrazione", "id"],
+        ["css=#registrazione", "css:finder"],
+        ["xpath=//input[@id='registrazione']", "xpath:attributes"],
+        ["xpath=//fieldset/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9e7be0c8-e07b-4ddc-936a-557c571cf33c",
+    "name": "TC_2.1_03",
+    "commands": [{
+      "id": "6cb79e3b-6793-42c5-ba73-2ef2261554e2",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/Tutti/HomePage.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "958e33ff-ebcd-49af-b8fd-837612d3abe7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07e84634-f54e-419a-b08b-fdea6083af8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=select:nth-child(1)",
+      "targets": [
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e1a3f84-99cf-40b5-9176-86aabca192b7",
+      "comment": "",
+      "command": "select",
+      "target": "css=select:nth-child(1)",
+      "targets": [],
+      "value": "label=Gestione Sito"
+    }, {
+      "id": "07b9463d-1ef1-4391-bc7b-d4c3b2a8cb17",
+      "comment": "",
+      "command": "select",
+      "target": "css=select:nth-child(1)",
+      "targets": [],
+      "value": "label=Gestione Sito"
+    }, {
+      "id": "e60763ca-aa73-4eb9-b5a1-727edf99b2ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=siglaUniversita",
+      "targets": [
+        ["id=siglaUniversita", "id"],
+        ["name=siglaUniversita", "name"],
+        ["css=#siglaUniversita", "css:finder"],
+        ["xpath=//input[@id='siglaUniversita']", "xpath:attributes"],
+        ["xpath=//form[@id='formCategoria']/input", "xpath:idRelative"],
+        ["xpath=//fieldset/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "940d9080-6f2c-48ea-9812-5417a0cd155c",
+      "comment": "",
+      "command": "type",
+      "target": "id=siglaUniversita",
+      "targets": [
+        ["id=siglaUniversita", "id"],
+        ["name=siglaUniversita", "name"],
+        ["css=#siglaUniversita", "css:finder"],
+        ["xpath=//input[@id='siglaUniversita']", "xpath:attributes"],
+        ["xpath=//form[@id='formCategoria']/input", "xpath:idRelative"],
+        ["xpath=//fieldset/form/input", "xpath:position"]
+      ],
+      "value": "UNIVERON"
+    }, {
+      "id": "43f22d0a-6fa2-4cc0-a065-f43429ce41ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=nomeLocalita",
+      "targets": [
+        ["id=nomeLocalita", "id"],
+        ["name=nomeLocalita", "name"],
+        ["css=#nomeLocalita", "css:finder"],
+        ["xpath=//input[@id='nomeLocalita']", "xpath:attributes"],
+        ["xpath=//form[@id='formCategoria']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc970ef3-5188-4f7b-9512-930c31a7953c",
+      "comment": "",
+      "command": "type",
+      "target": "id=nomeLocalita",
+      "targets": [
+        ["id=nomeLocalita", "id"],
+        ["name=nomeLocalita", "name"],
+        ["css=#nomeLocalita", "css:finder"],
+        ["xpath=//input[@id='nomeLocalita']", "xpath:attributes"],
+        ["xpath=//form[@id='formCategoria']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "c.ampania"
+    }, {
+      "id": "3a9a292d-9b2c-45df-8710-802ef283483c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#formCategoria > .pulsantilogin-registrazione-add:nth-child(8)",
+      "targets": [
+        ["css=#formCategoria > .pulsantilogin-registrazione-add:nth-child(8)", "css:finder"],
+        ["xpath=//input[@value='Aggiungi']", "xpath:attributes"],
+        ["xpath=//form[@id='formCategoria']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0a2b45f0-988a-421c-928e-00fd08b4c920",
+    "name": "TC_2.1_04",
+    "commands": [{
+      "id": "ce50a911-e55d-4201-9e10-9d404a57960d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "adf7da42-ff97-4dcd-8914-03913001026d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f31c67e0-57f8-4b63-b40c-d9a26eb883a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=select:nth-child(1)",
+      "targets": [
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8edaa5f7-2988-4b48-9c70-80d2af572f30",
+      "comment": "",
+      "command": "select",
+      "target": "css=select:nth-child(1)",
+      "targets": [],
+      "value": "label=Gestione Sito"
+    }, {
+      "id": "1d5544e6-a14e-4a4c-8451-a5560b932262",
+      "comment": "",
+      "command": "click",
+      "target": "id=siglaUniversita",
+      "targets": [
+        ["id=siglaUniversita", "id"],
+        ["name=siglaUniversita", "name"],
+        ["css=#siglaUniversita", "css:finder"],
+        ["xpath=//input[@id='siglaUniversita']", "xpath:attributes"],
+        ["xpath=//form[@id='formCategoria']/input", "xpath:idRelative"],
+        ["xpath=//fieldset/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16e209cf-8a27-4f1b-984a-21de5f880aff",
+      "comment": "",
+      "command": "type",
+      "target": "id=siglaUniversita",
+      "targets": [
+        ["id=siglaUniversita", "id"],
+        ["name=siglaUniversita", "name"],
+        ["css=#siglaUniversita", "css:finder"],
+        ["xpath=//input[@id='siglaUniversita']", "xpath:attributes"],
+        ["xpath=//form[@id='formCategoria']/input", "xpath:idRelative"],
+        ["xpath=//fieldset/form/input", "xpath:position"]
+      ],
+      "value": "UNISAFORTUNATO"
+    }, {
+      "id": "cd54cbbc-dedc-4c98-b9fd-8ef404467353",
+      "comment": "",
+      "command": "type",
+      "target": "id=nomeLocalita",
+      "targets": [
+        ["id=nomeLocalita", "id"],
+        ["name=nomeLocalita", "name"],
+        ["css=#nomeLocalita", "css:finder"],
+        ["xpath=//input[@id='nomeLocalita']", "xpath:attributes"],
+        ["xpath=//form[@id='formCategoria']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Francia"
+    }, {
+      "id": "cfd65919-4e5d-441b-9edb-054cb0bdbd22",
+      "comment": "",
+      "command": "click",
+      "target": "css=#formCategoria > .pulsantilogin-registrazione-add:nth-child(8)",
+      "targets": [
+        ["css=#formCategoria > .pulsantilogin-registrazione-add:nth-child(8)", "css:finder"],
+        ["xpath=//input[@value='Aggiungi']", "xpath:attributes"],
+        ["xpath=//form[@id='formCategoria']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "868274be-0d20-4aa7-b373-146b3d5e1b42",
+    "name": "TC_2.1_05",
+    "commands": [{
+      "id": "55122fdb-f41a-46eb-9772-3721a1c30f95",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "980e8bf3-7afc-44ab-bef5-8119d80b7d9a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23b121bf-225a-4756-b345-4f719f04f034",
+      "comment": "",
+      "command": "click",
+      "target": "css=select:nth-child(1)",
+      "targets": [
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b29e62be-dd48-4b26-aa30-d3914d67bf0c",
+      "comment": "",
+      "command": "select",
+      "target": "css=select:nth-child(1)",
+      "targets": [],
+      "value": "label=Gestione Sito"
+    }, {
+      "id": "3d28685d-64f2-44ea-9d05-fe5577ca1c76",
+      "comment": "",
+      "command": "click",
+      "target": "id=siglaUniversita",
+      "targets": [
+        ["id=siglaUniversita", "id"],
+        ["name=siglaUniversita", "name"],
+        ["css=#siglaUniversita", "css:finder"],
+        ["xpath=//input[@id='siglaUniversita']", "xpath:attributes"],
+        ["xpath=//form[@id='formCategoria']/input", "xpath:idRelative"],
+        ["xpath=//fieldset/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35666158-9492-4219-b967-5f90da6fb779",
+      "comment": "",
+      "command": "type",
+      "target": "id=siglaUniversita",
+      "targets": [
+        ["id=siglaUniversita", "id"],
+        ["name=siglaUniversita", "name"],
+        ["css=#siglaUniversita", "css:finder"],
+        ["xpath=//input[@id='siglaUniversita']", "xpath:attributes"],
+        ["xpath=//form[@id='formCategoria']/input", "xpath:idRelative"],
+        ["xpath=//fieldset/form/input", "xpath:position"]
+      ],
+      "value": "UNISAFORTUNATO"
+    }, {
+      "id": "d3b60619-e3ab-46a0-b6fa-630c9169c6fa",
+      "comment": "",
+      "command": "click",
+      "target": "id=nomeLocalita",
+      "targets": [
+        ["id=nomeLocalita", "id"],
+        ["name=nomeLocalita", "name"],
+        ["css=#nomeLocalita", "css:finder"],
+        ["xpath=//input[@id='nomeLocalita']", "xpath:attributes"],
+        ["xpath=//form[@id='formCategoria']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaa50801-a47b-4031-8884-61d425990b0e",
+      "comment": "",
+      "command": "type",
+      "target": "id=nomeLocalita",
+      "targets": [
+        ["id=nomeLocalita", "id"],
+        ["name=nomeLocalita", "name"],
+        ["css=#nomeLocalita", "css:finder"],
+        ["xpath=//input[@id='nomeLocalita']", "xpath:attributes"],
+        ["xpath=//form[@id='formCategoria']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Campania"
+    }, {
+      "id": "2413be10-ba9c-4d8a-8209-73facf07c7b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#formCategoria > .pulsantilogin-registrazione-add:nth-child(8)",
+      "targets": [
+        ["css=#formCategoria > .pulsantilogin-registrazione-add:nth-child(8)", "css:finder"],
+        ["xpath=//input[@value='Aggiungi']", "xpath:attributes"],
+        ["xpath=//form[@id='formCategoria']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2044da96-1f35-4cd7-a1f0-bde2fd1b127c",
+    "name": "TC_2.2_02",
+    "commands": [{
+      "id": "82afb8bf-544f-4a2f-a5b4-b3a665bf6429",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d81a8bc4-c6c4-41aa-8fb2-2b6796c26c77",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc088367-098f-4ef3-827d-790617df92ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=select:nth-child(1)",
+      "targets": [
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f9d7dcb-6a7d-420a-bdcc-6e4906351a27",
+      "comment": "",
+      "command": "select",
+      "target": "css=select:nth-child(1)",
+      "targets": [],
+      "value": "label=Gestione Sito"
+    }, {
+      "id": "111cb403-2b9c-460c-bf91-55bc7abcb013",
+      "comment": "",
+      "command": "click",
+      "target": "id=nomeCategoria",
+      "targets": [
+        ["id=nomeCategoria", "id"],
+        ["name=nomeCategoria", "name"],
+        ["css=#nomeCategoria", "css:finder"],
+        ["xpath=//input[@id='nomeCategoria']", "xpath:attributes"],
+        ["xpath=(//form[@id='formCategoria']/input)[4]", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "520283fa-bd54-4bb6-a64d-dab19666e5a5",
+      "comment": "",
+      "command": "type",
+      "target": "id=nomeCategoria",
+      "targets": [
+        ["id=nomeCategoria", "id"],
+        ["name=nomeCategoria", "name"],
+        ["css=#nomeCategoria", "css:finder"],
+        ["xpath=//input[@id='nomeCategoria']", "xpath:attributes"],
+        ["xpath=(//form[@id='formCategoria']/input)[4]", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/form/input", "xpath:position"]
+      ],
+      "value": "Affitti"
+    }, {
+      "id": "42a178a4-9cee-4c67-91b0-908ff1955257",
+      "comment": "",
+      "command": "click",
+      "target": "css=#formCategoria > .pulsantilogin-registrazione-add:nth-child(5)",
+      "targets": [
+        ["css=#formCategoria > .pulsantilogin-registrazione-add:nth-child(5)", "css:finder"],
+        ["xpath=(//input[@value='Aggiungi'])[2]", "xpath:attributes"],
+        ["xpath=(//form[@id='formCategoria']/input[2])[2]", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "39c4e42a-704e-4add-bdd1-7f6493e22f39",
+    "name": "TC_2.2_03",
+    "commands": [{
+      "id": "0b23bfa7-1560-47cc-a997-294fcf1b23c8",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f34731e5-49b6-480a-b317-e81d49516f07",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f169c4a3-a855-43b9-b723-918865e6f0a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=select:nth-child(1)",
+      "targets": [
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55cf0a9e-f1a6-43e2-99f6-7280122fd2fd",
+      "comment": "",
+      "command": "select",
+      "target": "css=select:nth-child(1)",
+      "targets": [],
+      "value": "label=Gestione Sito"
+    }, {
+      "id": "8aada5be-a0d7-4fde-8f21-cba737742874",
+      "comment": "",
+      "command": "click",
+      "target": "id=nomeCategoria",
+      "targets": [
+        ["id=nomeCategoria", "id"],
+        ["name=nomeCategoria", "name"],
+        ["css=#nomeCategoria", "css:finder"],
+        ["xpath=//input[@id='nomeCategoria']", "xpath:attributes"],
+        ["xpath=(//form[@id='formCategoria']/input)[4]", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb0256a3-45bd-4616-a0c0-aa0c8b95dd3f",
+      "comment": "",
+      "command": "type",
+      "target": "id=nomeCategoria",
+      "targets": [
+        ["id=nomeCategoria", "id"],
+        ["name=nomeCategoria", "name"],
+        ["css=#nomeCategoria", "css:finder"],
+        ["xpath=//input[@id='nomeCategoria']", "xpath:attributes"],
+        ["xpath=(//form[@id='formCategoria']/input)[4]", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/form/input", "xpath:position"]
+      ],
+      "value": "Lavoro"
+    }, {
+      "id": "ea0c5f1d-2ba8-4a31-a1f4-136b6660b165",
+      "comment": "",
+      "command": "click",
+      "target": "css=#formCategoria > .pulsantilogin-registrazione-add:nth-child(5)",
+      "targets": [
+        ["css=#formCategoria > .pulsantilogin-registrazione-add:nth-child(5)", "css:finder"],
+        ["xpath=(//input[@value='Aggiungi'])[2]", "xpath:attributes"],
+        ["xpath=(//form[@id='formCategoria']/input[2])[2]", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "df565fca-8fad-4235-a515-5a57af154e86",
+    "name": "TC_2.3_01",
+    "commands": [{
+      "id": "75ecdb99-c19f-4714-b21b-6566f284f0d4",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/Tutti/HomePage.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e35c04f-2274-4f30-b27b-caab2cf4a751",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41180495-4113-4400-84a9-239da578d022",
+      "comment": "",
+      "command": "click",
+      "target": "css=select:nth-child(1)",
+      "targets": [
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0312cd4d-528f-443c-94b0-81e5e7bd43a3",
+      "comment": "",
+      "command": "select",
+      "target": "css=select:nth-child(1)",
+      "targets": [],
+      "value": "label=Gestione Sito"
+    }, {
+      "id": "ff8b7b73-59cd-425b-8636-a19ee4528e5f",
+      "comment": "",
+      "command": "select",
+      "target": "css=select:nth-child(1)",
+      "targets": [],
+      "value": "label=Gestione Sito"
+    }, {
+      "id": "fd32ade5-6f17-4cce-a545-3e9cb6333428",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailUtente",
+      "targets": [
+        ["name=emailUtente", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='emailUtente']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76b90020-fb89-41f8-b332-20b30514d47a",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailUtente",
+      "targets": [
+        ["name=emailUtente", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='emailUtente']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input", "xpath:position"]
+      ],
+      "value": "vittoriostudenti.unisa.it"
+    }, {
+      "id": "fbcbb1f3-4372-4fbe-8c93-da34a3b2f0b1",
+      "comment": "",
+      "command": "type",
+      "target": "name=titoloAnnuncio",
+      "targets": [
+        ["name=titoloAnnuncio", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='titoloAnnuncio']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input[2]", "xpath:position"]
+      ],
+      "value": "Ripetizioni Analisi"
+    }, {
+      "id": "f6ffd0b7-5411-4c52-8863-e73f8ba48d1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldVit:nth-child(5) .pulsantilogin-registrazione-add",
+      "targets": [
+        ["css=.fieldVit:nth-child(5) .pulsantilogin-registrazione-add", "css:finder"],
+        ["xpath=(//input[@value='Elimina'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5a54da23-2fdd-42ec-bc94-2781dee4da91",
+    "name": "TC_2.3_02",
+    "commands": [{
+      "id": "1c88781f-6b72-492b-a28a-22582cb6ed95",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3986d18-12c0-476e-b701-c435afe337ea",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbd2692b-434e-43f1-9d5b-b1b562bb129d",
+      "comment": "",
+      "command": "click",
+      "target": "css=select:nth-child(1)",
+      "targets": [
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71cba932-085b-4a42-8bd5-1b3232b0daf5",
+      "comment": "",
+      "command": "select",
+      "target": "css=select:nth-child(1)",
+      "targets": [],
+      "value": "label=Gestione Sito"
+    }, {
+      "id": "c2d2b0ff-fa75-4dd8-924c-3f9ffe95bba6",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailUtente",
+      "targets": [
+        ["name=emailUtente", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='emailUtente']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "055ea285-eead-402d-8841-ca448b810239",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailUtente",
+      "targets": [
+        ["name=emailUtente", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='emailUtente']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input", "xpath:position"]
+      ],
+      "value": "gennarino@"
+    }, {
+      "id": "a82c8ee4-7810-47e6-b90f-02dc477a0952",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailUtente",
+      "targets": [
+        ["name=emailUtente", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='emailUtente']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input", "xpath:position"]
+      ],
+      "value": "gennarino@studenti.unisa.it"
+    }, {
+      "id": "fec413e7-7aba-44d6-ad18-dbd2e2992473",
+      "comment": "",
+      "command": "type",
+      "target": "name=titoloAnnuncio",
+      "targets": [
+        ["name=titoloAnnuncio", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='titoloAnnuncio']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input[2]", "xpath:position"]
+      ],
+      "value": "Ripetizioni Analisi"
+    }, {
+      "id": "b56fe84a-7044-4741-ba16-7ce58cbded0e",
+      "comment": "",
+      "command": "type",
+      "target": "name=titoloAnnuncio",
+      "targets": [
+        ["name=titoloAnnuncio", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='titoloAnnuncio']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input[2]", "xpath:position"]
+      ],
+      "value": "Ripetizioni Analisi"
+    }, {
+      "id": "545d41c0-b465-442e-bc16-9acac71b5135",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=titoloAnnuncio",
+      "targets": [
+        ["name=titoloAnnuncio", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='titoloAnnuncio']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "a45c7be6-acc9-41f5-b4a6-c558d9521a5e",
+    "name": "TC_2.3_03",
+    "commands": [{
+      "id": "b380bb62-77b5-4cc2-90bf-81d51568e691",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56204646-af62-45a4-afc1-62ebcd2e8353",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f44683da-fc3c-4a10-89f2-7d72e43e0c2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=select:nth-child(1)",
+      "targets": [
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "747f5f27-99d0-49ae-82d5-41cdd32927d1",
+      "comment": "",
+      "command": "select",
+      "target": "css=select:nth-child(1)",
+      "targets": [],
+      "value": "label=Gestione Sito"
+    }, {
+      "id": "009fa5ab-9f76-400f-a6c3-1adc91d2a71b",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailUtente",
+      "targets": [
+        ["name=emailUtente", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='emailUtente']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "babafd66-5a6c-4012-8767-dade3d861920",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailUtente",
+      "targets": [
+        ["name=emailUtente", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='emailUtente']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input", "xpath:position"]
+      ],
+      "value": "v.ventura@studenti.unisa.it"
+    }, {
+      "id": "4cc580c3-af5a-4f3c-9af4-692af863e6d1",
+      "comment": "",
+      "command": "type",
+      "target": "name=titoloAnnuncio",
+      "targets": [
+        ["name=titoloAnnuncio", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='titoloAnnuncio']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input[2]", "xpath:position"]
+      ],
+      "value": "! Ripetizioni Analisi"
+    }, {
+      "id": "a9a69739-7f77-45b1-96b8-1d81eb9a9f1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldVit:nth-child(5) .pulsantilogin-registrazione-add",
+      "targets": [
+        ["css=.fieldVit:nth-child(5) .pulsantilogin-registrazione-add", "css:finder"],
+        ["xpath=(//input[@value='Elimina'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b4554398-c250-4cd1-9cb9-faec1581546c",
+    "name": "TC_2.3_04",
+    "commands": [{
+      "id": "a26b0880-c619-4b9e-a25b-5fe8558fb9d8",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a441eecb-8269-4070-a704-78f8bf445a29",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e94434d-1a78-4218-9d40-650995f9ee04",
+      "comment": "",
+      "command": "click",
+      "target": "css=select:nth-child(1)",
+      "targets": [
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cdec1a3-fc77-4065-b41d-380b4b330320",
+      "comment": "",
+      "command": "select",
+      "target": "css=select:nth-child(1)",
+      "targets": [],
+      "value": "label=Gestione Sito"
+    }, {
+      "id": "3ba0e170-a513-490a-a86f-306eb66d7469",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailUtente",
+      "targets": [
+        ["name=emailUtente", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='emailUtente']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "402cf4b1-d2f1-47bf-89b0-c86178636f2b",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailUtente",
+      "targets": [
+        ["name=emailUtente", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='emailUtente']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input", "xpath:position"]
+      ],
+      "value": "v.ventura@studenti.unisa.it"
+    }, {
+      "id": "eac2b01d-1a81-4764-9e4a-238a4f911ea4",
+      "comment": "",
+      "command": "click",
+      "target": "name=titoloAnnuncio",
+      "targets": [
+        ["name=titoloAnnuncio", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='titoloAnnuncio']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d243eb2d-623c-4afa-92f7-a63334c3143e",
+      "comment": "",
+      "command": "type",
+      "target": "name=titoloAnnuncio",
+      "targets": [
+        ["name=titoloAnnuncio", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='titoloAnnuncio']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input[2]", "xpath:position"]
+      ],
+      "value": "Ripetizioni MD"
+    }, {
+      "id": "3cbad93d-5ada-4afd-8271-6de48977f2d5",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=titoloAnnuncio",
+      "targets": [
+        ["name=titoloAnnuncio", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='titoloAnnuncio']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "ced4da6b-4f03-43d1-8039-290a3c904c3d",
+    "name": "TC_2.3_05",
+    "commands": [{
+      "id": "b2e48825-960c-4329-aa77-40f03ffee200",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d828a7f-4cd9-4b32-9626-255a8da98d7f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d26a247-5fe7-4fd3-b7e5-8ac9581fa8ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=select:nth-child(1)",
+      "targets": [
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73803597-53bd-472d-ad68-c9b169441871",
+      "comment": "",
+      "command": "select",
+      "target": "css=select:nth-child(1)",
+      "targets": [],
+      "value": "label=Gestione Sito"
+    }, {
+      "id": "51faaa8d-3741-468c-9e97-8e72be4283cf",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailUtente",
+      "targets": [
+        ["name=emailUtente", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='emailUtente']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc46ffb0-112f-45e3-91da-845b63eccdd1",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailUtente",
+      "targets": [
+        ["name=emailUtente", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='emailUtente']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input", "xpath:position"]
+      ],
+      "value": "l.carpentieri@studenti.unisa.it"
+    }, {
+      "id": "104c76de-ec11-4622-8293-fac534dffd2b",
+      "comment": "",
+      "command": "type",
+      "target": "name=titoloAnnuncio",
+      "targets": [
+        ["name=titoloAnnuncio", "name"],
+        ["css=.fieldVit:nth-child(5) .input-text:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='titoloAnnuncio']", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input[2]", "xpath:position"]
+      ],
+      "value": "Ripetizioni Analisi"
+    }, {
+      "id": "aba26c30-54db-4052-903d-6eb0e09a71b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldVit:nth-child(5) .pulsantilogin-registrazione-add",
+      "targets": [
+        ["css=.fieldVit:nth-child(5) .pulsantilogin-registrazione-add", "css:finder"],
+        ["xpath=(//input[@value='Elimina'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[5]/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5beda90a-dec3-40d1-a955-b116c4ba76bd",
+    "name": "TC_2.4_01",
+    "commands": [{
+      "id": "8a932b90-b091-4fa8-8bc7-b547826917b3",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e1a0f62-eacf-4760-acd5-697c7a3b0c9c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ca4eed2-9bf4-4df3-81b4-2b1aeccac6c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=select:nth-child(1)",
+      "targets": [
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b128472e-e5b6-431c-84d8-ce0f67806774",
+      "comment": "",
+      "command": "select",
+      "target": "css=select:nth-child(1)",
+      "targets": [],
+      "value": "label=Gestione Sito"
+    }, {
+      "id": "1f25c062-0ce5-48be-9a93-6f2a3f25f1dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldVit:nth-child(6) .input-text",
+      "targets": [
+        ["css=.fieldVit:nth-child(6) .input-text", "css:finder"],
+        ["xpath=(//input[@name='emailUtente'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[6]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22e4d024-2f9f-4377-a65e-f76402714679",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldVit:nth-child(6) .input-text",
+      "targets": [
+        ["css=.fieldVit:nth-child(6) .input-text", "css:finder"],
+        ["xpath=(//input[@name='emailUtente'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[6]/form/input", "xpath:position"]
+      ],
+      "value": "vittoriostudenti.unisa.it"
+    }, {
+      "id": "c2b57eaf-0ce8-4796-ae4c-cb32e5e3d32d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldVit:nth-child(6) .pulsantilogin-registrazione-add",
+      "targets": [
+        ["css=.fieldVit:nth-child(6) .pulsantilogin-registrazione-add", "css:finder"],
+        ["xpath=(//input[@value='Elimina'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[6]/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "68b6755f-3353-4baa-b42e-4678bbd097ae",
+    "name": "TC_2.4_02",
+    "commands": [{
+      "id": "57185021-8fde-40bb-9b3d-5d5a909c4d19",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91e35a8f-1426-47d6-9ed2-1e94d2575e7e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f408125-cd7e-413e-b491-5903dc3facd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=select:nth-child(1)",
+      "targets": [
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58dfd35c-a275-41b0-83a0-c59f084f9bfa",
+      "comment": "",
+      "command": "select",
+      "target": "css=select:nth-child(1)",
+      "targets": [],
+      "value": "label=Gestione Sito"
+    }, {
+      "id": "f9b7140c-8baf-43c1-a1a0-ef352615f2dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldVit:nth-child(6) .input-text",
+      "targets": [
+        ["css=.fieldVit:nth-child(6) .input-text", "css:finder"],
+        ["xpath=(//input[@name='emailUtente'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[6]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9218c0b-9607-40f1-a9f6-844f46228d1a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldVit:nth-child(6) .input-text",
+      "targets": [
+        ["css=.fieldVit:nth-child(6) .input-text", "css:finder"],
+        ["xpath=(//input[@name='emailUtente'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[6]/form/input", "xpath:position"]
+      ],
+      "value": "vittorio@gmail.com"
+    }, {
+      "id": "96f891cb-2fcf-42e5-824e-547ded6b4b08",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldVit:nth-child(6) .pulsantilogin-registrazione-add",
+      "targets": [
+        ["css=.fieldVit:nth-child(6) .pulsantilogin-registrazione-add", "css:finder"],
+        ["xpath=(//input[@value='Elimina'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[6]/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "755a54e1-3107-4b8f-808a-7b43d6279b29",
+    "name": "TC_2.4_03",
+    "commands": [{
+      "id": "c5955ca3-2716-4e7b-ab65-ea9bd1a786d9",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc87fd10-8f75-4542-8a1f-c3dc0c7ad3e7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49a63e13-bae6-41df-adcb-355f5783e744",
+      "comment": "",
+      "command": "click",
+      "target": "css=select:nth-child(1)",
+      "targets": [
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d530dd9-419a-4b0e-b373-bfc813694a5f",
+      "comment": "",
+      "command": "select",
+      "target": "css=select:nth-child(1)",
+      "targets": [],
+      "value": "label=Gestione Sito"
+    }, {
+      "id": "e07464de-bd06-4128-8438-86ea375f3fcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldVit:nth-child(6) .input-text",
+      "targets": [
+        ["css=.fieldVit:nth-child(6) .input-text", "css:finder"],
+        ["xpath=(//input[@name='emailUtente'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[6]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "223f6c67-9961-422a-8cd6-15681ed796f8",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldVit:nth-child(6) .input-text",
+      "targets": [
+        ["css=.fieldVit:nth-child(6) .input-text", "css:finder"],
+        ["xpath=(//input[@name='emailUtente'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[6]/form/input", "xpath:position"]
+      ],
+      "value": "cicciopanza@hotmail.it"
+    }, {
+      "id": "544419b6-f76c-4019-a985-66d60be06664",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldVit:nth-child(6) .pulsantilogin-registrazione-add",
+      "targets": [
+        ["css=.fieldVit:nth-child(6) .pulsantilogin-registrazione-add", "css:finder"],
+        ["xpath=(//input[@value='Elimina'])[4]", "xpath:attributes"],
+        ["xpath=//fieldset[6]/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d7040fea-e6e0-4a89-9799-4081076acec8",
+    "name": "TC_2.5_01",
+    "commands": [{
+      "id": "0e4be09f-25fa-4ecc-9ff7-5092d5b37c41",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/Tutti/HomePage.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0db7402-e48f-4ff4-a66a-1f7712649a4d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6815086-5349-4e42-9246-b59b987dc6ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=select:nth-child(1)",
+      "targets": [
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9570311-4d80-4c52-b51a-ffdeba3d2edd",
+      "comment": "",
+      "command": "select",
+      "target": "css=select:nth-child(1)",
+      "targets": [],
+      "value": "label=Gestione Sito"
+    }, {
+      "id": "fc9296d7-cfd9-4668-aaaf-2dde7f32c025",
+      "comment": "",
+      "command": "select",
+      "target": "css=select:nth-child(1)",
+      "targets": [],
+      "value": "label=Gestione Sito"
+    }, {
+      "id": "e0c46aa2-6dd9-4d99-94f5-469f3a357034",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldVit:nth-child(7) .input-text",
+      "targets": [
+        ["css=.fieldVit:nth-child(7) .input-text", "css:finder"],
+        ["xpath=(//input[@name='emailUtente'])[3]", "xpath:attributes"],
+        ["xpath=(//form[@id='formCategoria']/input)[6]", "xpath:idRelative"],
+        ["xpath=//fieldset[7]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01861971-36b5-4f1b-8138-63bde73424e5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldVit:nth-child(7) .input-text",
+      "targets": [
+        ["css=.fieldVit:nth-child(7) .input-text", "css:finder"],
+        ["xpath=(//input[@name='emailUtente'])[3]", "xpath:attributes"],
+        ["xpath=(//form[@id='formCategoria']/input)[6]", "xpath:idRelative"],
+        ["xpath=//fieldset[7]/form/input", "xpath:position"]
+      ],
+      "value": "l.carpentieristudenti.unisa.it"
+    }, {
+      "id": "31041b20-42d7-4ed5-b223-1650e38f2f33",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(6)",
+      "targets": [
+        ["css=input:nth-child(6)", "css:finder"],
+        ["xpath=(//input[@name='ruolo'])[2]", "xpath:attributes"],
+        ["xpath=(//form[@id='formCategoria']/input[3])[2]", "xpath:idRelative"],
+        ["xpath=//fieldset[7]/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df755fba-fa46-47f6-b4e3-5fb5ad2bf4ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pulsantilogin-registrazione-add:nth-child(10)",
+      "targets": [
+        ["css=.pulsantilogin-registrazione-add:nth-child(10)", "css:finder"],
+        ["xpath=//input[@value='Modifica']", "xpath:attributes"],
+        ["xpath=//form[@id='formCategoria']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d2b54472-e644-4afc-9877-7e52c52593f4",
+    "name": "TC_2.5_02",
+    "commands": [{
+      "id": "a482c910-fd48-4963-b576-8ff4db560520",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a540884-abc4-4745-8fb7-5d97e15c2dd6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f621f6c-a2cc-4d18-a7dc-f11b3e4a569a",
+      "comment": "",
+      "command": "click",
+      "target": "css=select:nth-child(1)",
+      "targets": [
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "890fc206-f05a-41a6-a3b7-9cf700a9b266",
+      "comment": "",
+      "command": "select",
+      "target": "css=select:nth-child(1)",
+      "targets": [],
+      "value": "label=Gestione Sito"
+    }, {
+      "id": "ba986486-168b-4c90-b2b6-f2b5f342cf83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldVit:nth-child(7) .input-text",
+      "targets": [
+        ["css=.fieldVit:nth-child(7) .input-text", "css:finder"],
+        ["xpath=(//input[@name='emailUtente'])[3]", "xpath:attributes"],
+        ["xpath=(//form[@id='formCategoria']/input)[6]", "xpath:idRelative"],
+        ["xpath=//fieldset[7]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30daf9b5-a987-40af-8394-981cd65d0323",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldVit:nth-child(7) .input-text",
+      "targets": [
+        ["css=.fieldVit:nth-child(7) .input-text", "css:finder"],
+        ["xpath=(//input[@name='emailUtente'])[3]", "xpath:attributes"],
+        ["xpath=(//form[@id='formCategoria']/input)[6]", "xpath:idRelative"],
+        ["xpath=//fieldset[7]/form/input", "xpath:position"]
+      ],
+      "value": "lorenzo@gmail.com"
+    }, {
+      "id": "128482d8-837d-41af-b18a-e49e446e1e46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldVit:nth-child(7) > #formCategoria",
+      "targets": [
+        ["css=.fieldVit:nth-child(7) > #formCategoria", "css:finder"],
+        ["xpath=(//form[@id='formCategoria'])[3]", "xpath:attributes"],
+        ["xpath=//fieldset[7]/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cceacb5-2ac5-4df7-a73d-f540227867c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(6)",
+      "targets": [
+        ["css=input:nth-child(6)", "css:finder"],
+        ["xpath=(//input[@name='ruolo'])[2]", "xpath:attributes"],
+        ["xpath=(//form[@id='formCategoria']/input[3])[2]", "xpath:idRelative"],
+        ["xpath=//fieldset[7]/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb459fb4-9ddd-47f4-b882-877273606be2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pulsantilogin-registrazione-add:nth-child(10)",
+      "targets": [
+        ["css=.pulsantilogin-registrazione-add:nth-child(10)", "css:finder"],
+        ["xpath=//input[@value='Modifica']", "xpath:attributes"],
+        ["xpath=//form[@id='formCategoria']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "86985ad0-3c3d-495b-af46-f4ae9de84081",
+    "name": "TC_2.5_03",
+    "commands": [{
+      "id": "48572a16-e3c6-42a6-bfc9-d43efbe3fe83",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58977d06-36fb-4f63-ae8b-7ce1072f4921",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5be463f-b980-48d6-8b77-65333efc2ae3",
+      "comment": "",
+      "command": "click",
+      "target": "css=select:nth-child(1)",
+      "targets": [
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dd9880f-c05f-422e-a8a6-33596347168b",
+      "comment": "",
+      "command": "select",
+      "target": "css=select:nth-child(1)",
+      "targets": [],
+      "value": "label=Gestione Sito"
+    }, {
+      "id": "d5f009d2-269c-44ec-8417-4622e8b765e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldVit:nth-child(7) .input-text",
+      "targets": [
+        ["css=.fieldVit:nth-child(7) .input-text", "css:finder"],
+        ["xpath=(//input[@name='emailUtente'])[3]", "xpath:attributes"],
+        ["xpath=(//form[@id='formCategoria']/input)[6]", "xpath:idRelative"],
+        ["xpath=//fieldset[7]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f229959b-c975-492a-b7f9-5053ccb5f192",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldVit:nth-child(7) .input-text",
+      "targets": [
+        ["css=.fieldVit:nth-child(7) .input-text", "css:finder"],
+        ["xpath=(//input[@name='emailUtente'])[3]", "xpath:attributes"],
+        ["xpath=(//form[@id='formCategoria']/input)[6]", "xpath:idRelative"],
+        ["xpath=//fieldset[7]/form/input", "xpath:position"]
+      ],
+      "value": "l.carpentieri@studenti.unisa.it"
+    }, {
+      "id": "079bdd9d-4a6b-4434-883b-0e9c2a5142b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(6)",
+      "targets": [
+        ["css=input:nth-child(6)", "css:finder"],
+        ["xpath=(//input[@name='ruolo'])[2]", "xpath:attributes"],
+        ["xpath=(//form[@id='formCategoria']/input[3])[2]", "xpath:idRelative"],
+        ["xpath=//fieldset[7]/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13968b12-bdee-4a34-8a07-3e18f2a174e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pulsantilogin-registrazione-add:nth-child(10)",
+      "targets": [
+        ["css=.pulsantilogin-registrazione-add:nth-child(10)", "css:finder"],
+        ["xpath=//input[@value='Modifica']", "xpath:attributes"],
+        ["xpath=//form[@id='formCategoria']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5f758ee6-06ed-4442-a8b9-2caa61abc415",
+    "name": "TC_3.1_06",
+    "commands": [{
+      "id": "2ce3f7bb-8293-4cd9-b463-2f092e67e1fd",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd3ea414-06eb-47fa-a67d-0324f6c115a5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8315c76-383a-4e20-8345-7e3ce8579a98",
+      "comment": "",
+      "command": "click",
+      "target": "css=nobr",
+      "targets": [
+        ["css=nobr", "css:finder"],
+        ["xpath=//nobr", "xpath:position"],
+        ["xpath=//nobr[contains(.,'Crea Annuncio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6200b42e-bdb3-4213-8e5b-befa0425a593",
+      "comment": "",
+      "command": "click",
+      "target": "name=titoloAnnuncio",
+      "targets": [
+        ["name=titoloAnnuncio", "name"],
+        ["css=.input-text", "css:finder"],
+        ["xpath=//input[@name='titoloAnnuncio']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "074b9147-5544-461b-9b27-da2564b0e53c",
+      "comment": "",
+      "command": "type",
+      "target": "name=titoloAnnuncio",
+      "targets": [
+        ["name=titoloAnnuncio", "name"],
+        ["css=.input-text", "css:finder"],
+        ["xpath=//input[@name='titoloAnnuncio']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "Libri Usato Analisi"
+    }, {
+      "id": "59f067e4-4765-4853-858b-ac0fcb778213",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectCategoria2",
+      "targets": [
+        ["id=selectCategoria2", "id"],
+        ["css=#selectCategoria2", "css:finder"],
+        ["xpath=//select[@id='selectCategoria2']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/select", "xpath:idRelative"],
+        ["xpath=//fieldset/form/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "375cc08c-e408-443a-933d-ac76ff6d5b9b",
+      "comment": "",
+      "command": "select",
+      "target": "id=selectCategoria2",
+      "targets": [],
+      "value": "label=Libri"
+    }, {
+      "id": "dfad70fc-2c1f-4d74-aee2-eeec2d69077c",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectUniversita2",
+      "targets": [
+        ["id=selectUniversita2", "id"],
+        ["css=#selectUniversita2", "css:finder"],
+        ["xpath=//select[@id='selectUniversita2']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/select[2]", "xpath:idRelative"],
+        ["xpath=//fieldset/form/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0fba478-a146-43ab-8122-41025c8e7a92",
+      "comment": "",
+      "command": "select",
+      "target": "id=selectUniversita2",
+      "targets": [],
+      "value": "label=UNISA"
+    }, {
+      "id": "79d92f77-d3eb-444b-b00b-04e1fc5a0afc",
+      "comment": "",
+      "command": "click",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a94576e6-6c3c-4994-ac76-ca4f70f2eb01",
+      "comment": "",
+      "command": "type",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Libro usato Analisi"
+    }, {
+      "id": "7a124308-dc8c-4ec4-85f7-efe426310db3",
+      "comment": "",
+      "command": "click",
+      "target": "id=fieldsetImg",
+      "targets": [
+        ["id=fieldsetImg", "id"],
+        ["css=#fieldsetImg", "css:finder"],
+        ["xpath=//fieldset[@id='fieldsetImg']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/fieldset", "xpath:idRelative"],
+        ["xpath=//form/fieldset", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15602a7b-da44-47c4-b93b-3d3d30cd9bfb",
+      "comment": "",
+      "command": "click",
+      "target": "id=uploadImg0",
+      "targets": [
+        ["id=uploadImg0", "id"],
+        ["name=img", "name"],
+        ["css=#uploadImg0", "css:finder"],
+        ["xpath=//input[@id='uploadImg0']", "xpath:attributes"],
+        ["xpath=//div[@id='divImg']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76b356cd-b591-41e0-820f-ddf6f2e0b049",
+      "comment": "",
+      "command": "type",
+      "target": "id=uploadImg0",
+      "targets": [
+        ["id=uploadImg0", "id"],
+        ["name=img", "name"],
+        ["css=#uploadImg0", "css:finder"],
+        ["xpath=//input[@id='uploadImg0']", "xpath:attributes"],
+        ["xpath=//div[@id='divImg']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\Analisi.png"
+    }, {
+      "id": "c17289fb-0811-4cc1-925d-cec3bb3e5d2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pulsantilogin-registrazione-add",
+      "targets": [
+        ["css=.pulsantilogin-registrazione-add", "css:finder"],
+        ["xpath=//input[@value='Aggiungi']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4f7336ce-5710-4374-abf9-8c8697f45280",
+    "name": "TC_3.1_01",
+    "commands": [{
+      "id": "798a863c-708d-4e9d-9f06-7278549537e1",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67f1d98a-d2a1-4900-977c-44a9f002496c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f21bac5b-2ef5-4cff-a196-6a8fc5d5cb2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=nobr",
+      "targets": [
+        ["css=nobr", "css:finder"],
+        ["xpath=//nobr", "xpath:position"],
+        ["xpath=//nobr[contains(.,'Crea Annuncio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29a36365-1cd0-48d4-bf15-8a6943793045",
+      "comment": "",
+      "command": "click",
+      "target": "name=titoloAnnuncio",
+      "targets": [
+        ["name=titoloAnnuncio", "name"],
+        ["css=.input-text", "css:finder"],
+        ["xpath=//input[@name='titoloAnnuncio']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a54d8f4b-d9c3-432a-877f-fc558d9e9488",
+      "comment": "",
+      "command": "type",
+      "target": "name=titoloAnnuncio",
+      "targets": [
+        ["name=titoloAnnuncio", "name"],
+        ["css=.input-text", "css:finder"],
+        ["xpath=//input[@name='titoloAnnuncio']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "! Libro Usato Analisi"
+    }, {
+      "id": "a394ec92-588f-4e3d-ae1e-db86c0d51639",
+      "comment": "",
+      "command": "click",
+      "target": "id=uploadImg0",
+      "targets": [
+        ["id=uploadImg0", "id"],
+        ["name=img", "name"],
+        ["css=#uploadImg0", "css:finder"],
+        ["xpath=//input[@id='uploadImg0']", "xpath:attributes"],
+        ["xpath=//div[@id='divImg']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dfb6201-3ec3-4b70-961d-a96751705bf1",
+      "comment": "",
+      "command": "type",
+      "target": "id=uploadImg0",
+      "targets": [
+        ["id=uploadImg0", "id"],
+        ["name=img", "name"],
+        ["css=#uploadImg0", "css:finder"],
+        ["xpath=//input[@id='uploadImg0']", "xpath:attributes"],
+        ["xpath=//div[@id='divImg']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\Analisi.png"
+    }, {
+      "id": "6fe10a62-d710-4614-8184-2c8727a9839a",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectCategoria2",
+      "targets": [
+        ["id=selectCategoria2", "id"],
+        ["css=#selectCategoria2", "css:finder"],
+        ["xpath=//select[@id='selectCategoria2']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/select", "xpath:idRelative"],
+        ["xpath=//fieldset/form/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67cffd44-0d5c-4944-9346-56391c6ec802",
+      "comment": "",
+      "command": "select",
+      "target": "id=selectCategoria2",
+      "targets": [],
+      "value": "label=Libri"
+    }, {
+      "id": "a79c38db-75d5-498a-af6b-63fb7a630b7e",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectUniversita2",
+      "targets": [
+        ["id=selectUniversita2", "id"],
+        ["css=#selectUniversita2", "css:finder"],
+        ["xpath=//select[@id='selectUniversita2']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/select[2]", "xpath:idRelative"],
+        ["xpath=//fieldset/form/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "178f1548-eb54-4ccf-b152-238fc854da2f",
+      "comment": "",
+      "command": "select",
+      "target": "id=selectUniversita2",
+      "targets": [],
+      "value": "label=UNISA"
+    }, {
+      "id": "ceb4fe5c-0264-40e6-90eb-65d179eed957",
+      "comment": "",
+      "command": "click",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a34ac1f0-a4eb-44b4-b1a5-869d227ac9c6",
+      "comment": "",
+      "command": "type",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "libro usato"
+    }, {
+      "id": "75ba9a40-f7c4-4e3f-8a08-1bf599bcfe31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pulsantilogin-registrazione-add",
+      "targets": [
+        ["css=.pulsantilogin-registrazione-add", "css:finder"],
+        ["xpath=//input[@value='Aggiungi']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b82715de-a3fb-4e8d-b9d7-ab39bc6843af",
+    "name": "TC_3.1_03",
+    "commands": [{
+      "id": "a4c1b752-9677-4da0-915f-11bc1585749d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04988743-b0b1-4eaf-a9c2-d2c1a8481f5c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1319cc3c-5a3c-427e-bb44-e78af88af879",
+      "comment": "",
+      "command": "click",
+      "target": "css=nobr",
+      "targets": [
+        ["css=nobr", "css:finder"],
+        ["xpath=//nobr", "xpath:position"],
+        ["xpath=//nobr[contains(.,'Crea Annuncio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f126769a-0d91-4533-b895-728292a5127a",
+      "comment": "",
+      "command": "click",
+      "target": "name=titoloAnnuncio",
+      "targets": [
+        ["name=titoloAnnuncio", "name"],
+        ["css=.input-text", "css:finder"],
+        ["xpath=//input[@name='titoloAnnuncio']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e870f98a-499b-46d4-a047-d5ea2d019267",
+      "comment": "",
+      "command": "type",
+      "target": "name=titoloAnnuncio",
+      "targets": [
+        ["name=titoloAnnuncio", "name"],
+        ["css=.input-text", "css:finder"],
+        ["xpath=//input[@name='titoloAnnuncio']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "Libri Usato Analisi"
+    }, {
+      "id": "dfe4757e-6cc8-4b66-a389-b06bbdd6b26e",
+      "comment": "",
+      "command": "click",
+      "target": "id=uploadImg0",
+      "targets": [
+        ["id=uploadImg0", "id"],
+        ["name=img", "name"],
+        ["css=#uploadImg0", "css:finder"],
+        ["xpath=//input[@id='uploadImg0']", "xpath:attributes"],
+        ["xpath=//div[@id='divImg']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11e7c4f8-00e4-4d49-8872-46986bedcaea",
+      "comment": "",
+      "command": "type",
+      "target": "id=uploadImg0",
+      "targets": [
+        ["id=uploadImg0", "id"],
+        ["name=img", "name"],
+        ["css=#uploadImg0", "css:finder"],
+        ["xpath=//input[@id='uploadImg0']", "xpath:attributes"],
+        ["xpath=//div[@id='divImg']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\Analisi.pdf"
+    }, {
+      "id": "c3462ff3-1562-4eee-a058-6d4ac5a39e76",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectCategoria2",
+      "targets": [
+        ["id=selectCategoria2", "id"],
+        ["css=#selectCategoria2", "css:finder"],
+        ["xpath=//select[@id='selectCategoria2']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/select", "xpath:idRelative"],
+        ["xpath=//fieldset/form/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "378b247a-09e9-4f57-84db-8394830f7eec",
+      "comment": "",
+      "command": "select",
+      "target": "id=selectCategoria2",
+      "targets": [],
+      "value": "label=Libri"
+    }, {
+      "id": "b91ca897-ffa2-4f22-b257-6d690962a2a0",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectUniversita2",
+      "targets": [
+        ["id=selectUniversita2", "id"],
+        ["css=#selectUniversita2", "css:finder"],
+        ["xpath=//select[@id='selectUniversita2']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/select[2]", "xpath:idRelative"],
+        ["xpath=//fieldset/form/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e609042-ed4b-4c38-8841-6056cf3676d4",
+      "comment": "",
+      "command": "select",
+      "target": "id=selectUniversita2",
+      "targets": [],
+      "value": "label=UNISA"
+    }, {
+      "id": "ed5830d0-07bc-4a9b-a770-e806f1ad21de",
+      "comment": "",
+      "command": "click",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80b47ee0-6be7-4e93-b375-e1ecb64a5f40",
+      "comment": "",
+      "command": "type",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "libro usato"
+    }, {
+      "id": "9cb45e91-c2f2-4746-8f13-e65bf7f15423",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pulsantilogin-registrazione-add",
+      "targets": [
+        ["css=.pulsantilogin-registrazione-add", "css:finder"],
+        ["xpath=//input[@value='Aggiungi']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "86889474-59a8-4318-96af-6aa4721fd5d3",
+    "name": "TC_3.1_04",
+    "commands": [{
+      "id": "e87e65e6-0cd0-4b7d-91be-075cd1a07fc2",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef8060ee-f5c0-489d-b1a0-b7f373dca855",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f6cf8fa-498a-476a-8448-68d5f7523b71",
+      "comment": "",
+      "command": "click",
+      "target": "css=nobr",
+      "targets": [
+        ["css=nobr", "css:finder"],
+        ["xpath=//nobr", "xpath:position"],
+        ["xpath=//nobr[contains(.,'Crea Annuncio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab6dd7e8-bc11-4438-a48e-d3e2e78aad05",
+      "comment": "",
+      "command": "click",
+      "target": "name=titoloAnnuncio",
+      "targets": [
+        ["name=titoloAnnuncio", "name"],
+        ["css=.input-text", "css:finder"],
+        ["xpath=//input[@name='titoloAnnuncio']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d28b38d-5aaa-42b4-965d-4b5a779fd4db",
+      "comment": "",
+      "command": "type",
+      "target": "name=titoloAnnuncio",
+      "targets": [
+        ["name=titoloAnnuncio", "name"],
+        ["css=.input-text", "css:finder"],
+        ["xpath=//input[@name='titoloAnnuncio']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "Libri Usato Analisi"
+    }, {
+      "id": "c50d2066-c5a6-4840-b149-d5cb0dfdb940",
+      "comment": "",
+      "command": "click",
+      "target": "id=uploadImg0",
+      "targets": [
+        ["id=uploadImg0", "id"],
+        ["name=img", "name"],
+        ["css=#uploadImg0", "css:finder"],
+        ["xpath=//input[@id='uploadImg0']", "xpath:attributes"],
+        ["xpath=//div[@id='divImg']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1f2d5ec-e28c-40f2-af3c-f4f9d3f7391b",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectCategoria2",
+      "targets": [
+        ["id=selectCategoria2", "id"],
+        ["css=#selectCategoria2", "css:finder"],
+        ["xpath=//select[@id='selectCategoria2']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/select", "xpath:idRelative"],
+        ["xpath=//fieldset/form/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf624982-6e4a-47cb-9f76-46a0777c40c5",
+      "comment": "",
+      "command": "select",
+      "target": "id=selectCategoria2",
+      "targets": [],
+      "value": "label=Libri"
+    }, {
+      "id": "753fc840-96ad-4684-9732-1ddc5094acb1",
+      "comment": "",
+      "command": "click",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88d99395-38e7-421d-b3eb-c572e1cd6c88",
+      "comment": "",
+      "command": "type",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "libro usato"
+    }, {
+      "id": "d12045ee-ebf0-4ad3-bd64-876d3c29db38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pulsantilogin-registrazione-add",
+      "targets": [
+        ["css=.pulsantilogin-registrazione-add", "css:finder"],
+        ["xpath=//input[@value='Aggiungi']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e0167648-21e2-4e17-9ae3-d418b8fe5371",
+    "name": "TC_3.1_05",
+    "commands": [{
+      "id": "0dc4d4b9-a5a2-4b3a-968d-2c06180c0f6f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/UniAds/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6db9df2-127e-42a5-a67b-bc1e66e4ed99",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c668e37-1ecc-4004-8b17-5067fc401f42",
+      "comment": "",
+      "command": "click",
+      "target": "css=nobr",
+      "targets": [
+        ["css=nobr", "css:finder"],
+        ["xpath=//nobr", "xpath:position"],
+        ["xpath=//nobr[contains(.,'Crea Annuncio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4745a68-89ea-4486-8c76-162fbfb1c7f9",
+      "comment": "",
+      "command": "click",
+      "target": "name=titoloAnnuncio",
+      "targets": [
+        ["name=titoloAnnuncio", "name"],
+        ["css=.input-text", "css:finder"],
+        ["xpath=//input[@name='titoloAnnuncio']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04439de1-7de4-42f8-a0d6-e0ddea99abfe",
+      "comment": "",
+      "command": "type",
+      "target": "name=titoloAnnuncio",
+      "targets": [
+        ["name=titoloAnnuncio", "name"],
+        ["css=.input-text", "css:finder"],
+        ["xpath=//input[@name='titoloAnnuncio']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "Libri Usato Analisi"
+    }, {
+      "id": "1e568e88-aacb-4190-a860-92e44763a28d",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectCategoria2",
+      "targets": [
+        ["id=selectCategoria2", "id"],
+        ["css=#selectCategoria2", "css:finder"],
+        ["xpath=//select[@id='selectCategoria2']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/select", "xpath:idRelative"],
+        ["xpath=//fieldset/form/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5db2ae20-69fe-475e-8a85-f12cd44faaef",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectUniversita2",
+      "targets": [
+        ["id=selectUniversita2", "id"],
+        ["css=#selectUniversita2", "css:finder"],
+        ["xpath=//select[@id='selectUniversita2']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/select[2]", "xpath:idRelative"],
+        ["xpath=//fieldset/form/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0c7dac2-73c5-414d-bd07-db33017bf5a2",
+      "comment": "",
+      "command": "select",
+      "target": "id=selectUniversita2",
+      "targets": [],
+      "value": "label=UNISA"
+    }, {
+      "id": "df270fe5-01ac-480e-b203-08409d66513f",
+      "comment": "",
+      "command": "click",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ce65a20-80dd-43ab-952c-dd50a9a73277",
+      "comment": "",
+      "command": "type",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "libro usato"
+    }, {
+      "id": "d23a2f18-99b1-4c41-950d-5ed339af15e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pulsantilogin-registrazione-add",
+      "targets": [
+        ["css=.pulsantilogin-registrazione-add", "css:finder"],
+        ["xpath=//input[@value='Aggiungi']", "xpath:attributes"],
+        ["xpath=//form[@id='formInserisciAnnuncio']/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "acdbf0dd-0f00-4a28-9dc7-01e109e3ed7f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bd7f7472-4f44-4bfa-bf73-16caa6edfc50"]
+  }],
+  "urls": ["http://localhost:8080/UniAds/Tutti/Login.jsp", "http://localhost:8080/UniAds/"],
+  "plugins": []
+}
