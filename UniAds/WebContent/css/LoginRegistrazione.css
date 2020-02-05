@@ -1,0 +1,105 @@
+@charset "ISO-8859-1";
+
+.container 
+{
+   	display: block;
+   	padding: 15px;
+    border: 1px solid #5a5a5a;
+	height: calc(100vh - (112.19px + 40px + 56px));
+	background-color:white;
+	height: auto;"
+}
+
+.input-text
+{
+	padding: 8px 8px;
+	margin-top: 1px;
+	margin-left: 2px;
+	width: 90%;
+	align-content:center; 
+	border-radius: 10px;
+}
+
+.input-text:focus 
+{
+	outline: none;
+}
+
+.scritte
+{
+	font-weight:bold;
+	font-family: arial;
+	font-size: 20pt;
+	color: #2f2f2f;
+	text-align: center;
+}
+
+.pulsantilogin-registrazione-add
+{
+	background-color: white; 
+	color: #2f2f2f; 
+	border: 2px solid #1d7dff;
+	font-size: 12pt;
+	width: 70%;
+}
+
+.pulsantilogin-registrazione-add:hover 
+{
+	background-color: #1d7dff;
+	color: white;
+}
+
+span.errore
+{
+	color:red;
+}
+
+#container-login 
+{
+	background-color: white;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -160px;
+	margin-left: -150px;
+}
+
+fieldset 
+{
+	border-radius:10px;
+	background-color: white;
+	text-align: center;
+}
+
+.dettagli
+{
+	font-weight: bold;
+	color: #2f2f2f;
+	text-align: center;
+}
+
+.caricaImg > input
+{
+	display: none;
+}
+
+.caricaImg img
+{
+	width: 150px;
+	height: 120px;
+	opacity: 0.9;
+	cursor:  pointer;
+}
+
+textarea 
+{
+  resize: none;
+}
+
+.successo
+{
+	color: #0078ff;
+	font-weight:bold;
+}

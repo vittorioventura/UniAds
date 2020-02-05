@@ -1,0 +1,157 @@
+
+.containerAds{
+	display:block;
+	background-color:white;
+	height: auto;
+	border: 1px solid #5a5a5a;
+	padding: 0 15px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#ricerca{
+	font-weight:bold;
+	font-size: 20pt;
+	
+}
+
+.listAds {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.titoloAds {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+
+.descrizioneAds {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+  
+}
+
+.everyAds {
+  display: flex;
+  padding: 10px;
+  width:auto;
+}
+
+.adImage {
+	height: 100px;
+	width: 100px;
+	margin: 0 15px 0 0;
+	border:1px solid #aeaeae;
+}
+
+.adBody {
+	display: flex;
+	flex-flow: column;
+	word-wrap:break-word;
+	width:65%;
+}
+
+.adBody:hover {
+  background: #eee;
+  cursor: pointer;
+
+  
+}
+
+.preferitiIcon{
+	float:right;
+	height:32px;
+	width:32px;
+	
+	
+}
+
+.preferitiIcon:hover{
+	background:url("/UniAds/img/heartHover.png");
+	height:32px;
+	width:32px;
+	float:right;
+	
+}
+
+.pageButton {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.pageButton a {
+  color: black;
+  float: left;
+  padding: 6px 14px;
+  text-decoration: none;
+  transition: background-color .4s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.pageButton a.active {
+  background-color:#188aff;
+  color: white;
+  border: 1px solid #1068c1;
+  cursor: pointer;
+}
+
+.pageButton a:hover:not(.active) {
+	background-color: #ddd;
+	cursor: pointer;
+	}
+	
+.deleteIcon{
+	float:right;
+	height:32px;
+	width:32px;
+	
+}
+
+#notFound {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+  	text-align:center;
+	
+}
+
+	/*<---Responsive--->*/
+@media screen and (max-width: 1365px) 
+{
+	#notFound
+	{
+		margin-right: 30%;
+	}
+}
+
+@media screen and (max-width: 736px) 
+{
+	#notFound img
+	{
+		width: 300px;
+	}
+	
+	#notFound
+	{
+		margin-right: 30%;
+	}
+}
+
+
+@media screen and (max-width: 641px) 
+{
+	#notFound img
+	{
+		width: 250px;
+	}
+	
+	#notFound
+	{
+		margin-right: 30%;
+	}
+}
+	

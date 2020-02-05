@@ -1,0 +1,204 @@
+.containerAnnuncio 
+{
+   	display: grid;
+   	grid-gap: 5px;
+   	grid-template-columns: 1fr;
+   	padding: 15px;
+    border: 1px solid #5a5a5a;
+	height: calc(100vh - (112.19px + 40px + 56px));
+	background-color:white;
+}
+
+#TitoloAnnuncio
+{
+	background-image: linear-gradient(to bottom left, #78d4ff, #188aff);
+	width: 100%;
+	border: 1px solid #fffffff;	
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 30px;
+	color: white;
+	border: 1px solid #AeAeAe;
+}
+
+#fakeTable
+{
+   	display: grid;
+   	grid-gap: 5px;
+   	grid-template-columns: 1fr 1fr;
+   	padding: 15px;
+	background-color:white;
+	overflow: auto;
+}
+
+#avanti{
+	align-content: center;
+}
+#indietro{
+	
+	margin-left:40%; 
+}
+#slideshow
+{
+	height: 330px;
+	width: 350px;
+}
+
+.slides
+{
+	height:300px;
+	width: 350px;
+  padding: 50px;
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.slides:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+	
+}
+
+#descrizione
+{
+	width: 500px;
+	background-image: white;
+	border-radius: 5px;
+	padding: 10px;
+	border: 1px dashed #AeAeAe;
+	word-wrap: break-word;
+	height: 150px;
+	overflow-y: auto;
+}
+
+#elenco
+{
+	padding-top: 10px;	
+}
+
+.proprieta
+{
+	font-weight: bold;
+	text-align: center;
+	padding: 3px;
+	border-radius: 2px;
+}
+
+.proprieta:hover
+{
+	background-image: linear-gradient(to bottom left, #78d4ff, #188aff);
+	color: white;
+}
+
+.btnAnnuncio
+{
+	background-color: white; 
+	color: #2f2f2f; 
+	border: 2px solid #1d7dff;
+	font-size: 12pt;
+	margin: 10px;
+}
+
+.btnAnnuncio:hover 
+{
+	background-color: #1d7dff;
+	color: white;
+}
+
+#corriere{
+	margin: 10px;
+    width: 80%;
+	
+}
+
+.risi
+{
+	width: 480px;
+}
+
+#carta{
+	font-size: 18px;
+	width: 80%;
+    margin: 10px;
+    border-radius: 10px;
+    outline: 0;
+}
+
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+	/*<---Responsive--->*/
+@media screen and (max-width: 1365px) 
+{
+	#fakeTable
+	{
+   		grid-template-columns: 1fr;
+   		clear: both;
+	}
+}
+
+@media screen and (max-width: 736px) 
+{
+	#fakeTable
+	{
+   		grid-template-columns: 1fr;
+   		clear: both;
+	}
+	
+	#descrizione 
+	{
+		width: 300px;
+	}
+	
+	.slides
+	{
+		width: 300px;
+	}
+	
+	.risi
+	{
+		width: 280px;
+	}
+}
+
+
+@media screen and (max-width: 641px) 
+{
+	#fakeTable
+	{
+   		grid-template-columns: 1fr;
+   		clear: both;
+	}
+	
+	#descrizione 
+	{
+		width: 300px;
+	}
+	
+	.slides
+	{
+		width: 300px;
+	}
+	
+	.risi
+	{
+		width: 280px;
+	}
+}

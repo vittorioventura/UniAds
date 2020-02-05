@@ -1,0 +1,186 @@
+@charset "ISO-8859-1";
+
+.container_insert
+{
+   	display: block;
+   	padding: 15px;
+    border: 1px solid #5a5a5a;
+	height: calc(100vh - (112.19px + 40px + 56px));
+	background-color:white;
+	height: auto;
+}
+
+.selectVit
+{
+	width: 90%;
+	margin-left:2px;
+	background-color: white;
+	border: 0;
+	border-bottom: 2px solid currentcolor; 
+	font-weight: bold;
+	letter-spacing: .15em;
+	border-radius: 10px;
+}
+
+.selectVit:focus, .select:active
+{
+    outline: 0;
+    border-bottom-color: #188aff;
+  }
+  
+.selectVit:hover
+{
+	border-bottom: 2px solid #188aff; 
+}	
+
+.fieldVit
+{
+	width: 300px; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.input-text
+{
+	padding: 8px 8px;
+	margin-top: 1px;
+	margin-left: 2px;
+	width: 90%;
+	align-content:center; 
+	border-radius: 10px;
+}
+
+.input-text:focus 
+{
+	outline: none;
+}
+
+.scritte
+{
+	font-weight:bold;
+	font-family: arial;
+	font-size: 20pt;
+	color: #2f2f2f;
+	text-align: center;
+}
+
+.pulsantilogin-registrazione-add
+{
+	background-color: white; 
+	color: #2f2f2f; 
+	border: 2px solid #1d7dff;
+	font-size: 12pt;
+	width: 70%;
+}
+
+.pulsantilogin-registrazione-add:hover 
+{
+	background-color: #1d7dff;
+	color: white;
+}
+
+span.errore
+{
+	color:red;
+}
+
+fieldset 
+{
+	border-radius:10px;
+	background-color: white;
+	text-align: center;
+}
+
+.dettagli
+{
+	font-weight: bold;
+	color: #2f2f2f;
+	text-align: center;
+}
+
+
+
+.nuovaImg{
+	width:40%;
+}
+#uploadImg0{
+	cursor: pointer;
+/* 	visibility: hidden; */
+}
+
+textarea 
+{
+  resize: none;
+  width: 373px;
+  height: 306px;
+}
+
+#selectCategoria2
+{
+	margin-left:2px;
+	background-color: white;
+	border: 0;
+	border-bottom: 2px solid currentcolor; 
+	font-weight: bold;
+	letter-spacing: .15em;
+	border-radius: 10px;
+}
+
+#selectCategoria2:focus, #selectCategoria2:active
+{
+    outline: 0;
+    border-bottom-color: #188aff;
+  }
+  
+#selectCategoria2:hover
+{
+	border-bottom: 2px solid #188aff; 
+}	
+
+
+#selectUniversita2
+{
+	margin-left:2px;
+	background-color: white;
+	border: 0;
+	border-bottom: 2px solid currentcolor; 
+	font-weight: bold;
+	letter-spacing: .15em;
+	border-radius: 10px;
+}
+
+#selectUniversita2:focus, #selectUniversita2:active
+{
+    outline: 0;
+    border-bottom-color: #188aff;
+  }
+  
+#selectUniversita2:hover
+{
+	border-bottom: 2px solid #188aff; 
+}	
+
+
+
+/*Responsive*/
+
+@media screen and (max-width: 538px) 
+{
+	.caricaImg img
+	{
+		width: 120px;
+		height: 90px;
+	}
+	
+	textarea
+	{
+		width: 280px;
+		border: 1px solid black;
+	}
+	
+	.selectVit
+	{
+		width: 260px;
+	}
+	
+}
